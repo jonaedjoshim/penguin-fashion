@@ -17,13 +17,16 @@
         .bebas-neue {
             font-family: "Bebas Neue", sans-serif;
         }
-        .glod {
-           color: #FABE4C;
+
+        .gold {
+            color: #FABE4C;
         }
-        .black{
+
+        .black {
             color: #363958;
         }
-        .grey{
+
+        .grey {
             color: #3E3E3E;
         }
 
@@ -34,23 +37,45 @@
 </head>
 
 <body class="roboto">
-   <header class="bg-[#FFFBF0]">
-     <!-- nav section -->
-    <nav class="flex justify-between items-center">
-        <div>
-            <img src="icons/logo.png" alt="">
-        </div>
-        <div>
-            <ul class="flex gap-14">
-                <li class="text-[#3C3C3C] font-medium text-lg">Home</li>
-                <li class="text-[#3C3C3C] font-medium text-lg">Product</li>
-                <li class="text-[#3C3C3C] font-medium text-lg">About us</li>
-                <li class="text-[#3C3C3C] font-medium text-lg">Contact us</li>
-            </ul>
-        </div>
-    </nav>
+    <header class="bg-[#FFFBF0]">
 
-   </header>
+        <!-- nav section -->
+
+        <nav class="flex justify-evenly items-center">
+            <div>
+                <img src="icons/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="flex gap-14">
+                    <li class="text-[#3C3C3C] font-medium text-lg">Home</li>
+                    <li class="text-[#3C3C3C] font-medium text-lg">Product</li>
+                    <li class="text-[#3C3C3C] font-medium text-lg">About us</li>
+                    <li class="text-[#3C3C3C] font-medium text-lg">Contact us</li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- banner section -->
+
+        <section class=" my-4 flex justify-evenly items-center">
+            <div>
+                <h3 class="uppercase text-7xl font-normal bebas-neue">
+                    <span class="gold">Be the Penguins</span>
+                    <br>
+                    <span class="black">of Winter</span>
+                </h3>
+                <p class="grey text-lg font-normal my-2">
+                    Lorem Ipsum is simply dummy text of the <br> printing nd typesetting
+                    industry.
+                </p>
+                <button class="text-white bg-gradient-to-b from-[#A4BC46] to-[#85A019] px-8 py-4 rounded-xl my-3"><i class="fa-solid fa-cart-shopping"></i> BUY NOW</i></button>
+            </div>
+            <div>
+                <img src="images/model.png" alt="a smiling women" class="mb-16">
+            </div>
+        </section>
+
+    </header>
 </body>
 
 </html>
